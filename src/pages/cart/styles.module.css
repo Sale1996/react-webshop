@@ -1,0 +1,29 @@
+.cartPage {
+    display: grid;
+    margin: 2.375rem 0;
+    gap: 30px;
+    grid-template-columns: 1fr 400px;  /* repeat(2,minmax(0,1fr)) */
+}
+.cartItems {
+    margin-top: 30px;
+}
+.proceedBtn {
+  margin-top: 20px;
+  background:#232326;
+  color: #fff;
+  font-size: 16px;
+}
+
+.cartTotalWrapp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1024px) {
+  .cartPage {
+    grid-template-columns: repeat(1,minmax(0,1fr));
+    grid-row-gap: 15px;
+    row-gap: 15px
+  }
+}

@@ -1,0 +1,55 @@
+.languageSwitcher {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  height: fit-content;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.languageSwitcher button {
+  background-color: transparent;
+  padding: 5px;
+  color: aliceblue;
+  --bs-btn-bg: transparent !important;
+  border: 0ch;
+  --b: 0.1em; /* the thickness of the line */
+  --c: #fcba03; /* the color */
+
+  color: #fff;
+  padding-block: var(--b);
+  background: linear-gradient(var(--c) 50%, #fff 0) 0%
+      calc(100% - var(--_p, 0%)) / 100% 200%,
+    linear-gradient(var(--c) 0 0) 0% var(--_p, 0%) / var(--_p, 0%) var(--b)
+      no-repeat;
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+  transition: 0.3s var(--_s, 0s) linear,
+    background-size 0.3s calc(0.3s - var(--_s, 0s));
+}
+.languageSwitcher button:hover {
+  --_p: 100%;
+  --_s: 0.3s;
+  color: #fcba03;
+}
+
+.dropdownHeader {
+  font-size: 9px;
+  font-weight: bold;
+}
+
+.dropdownFlagIcon {
+  margin-right: 10px;
+}
+
+.user_icon {
+  height: 22px;
+  width: 22px;
+  padding-bottom: 2px;
+}
+
+.login_menu_link,
+.login_menu_link:hover {
+  text-decoration: none;
+  color: #000; /* or whatever colour your text is */
+}

@@ -1,0 +1,38 @@
+.wishlistItem {
+  display: grid;
+  grid-template-columns: 100px auto 60px;
+  align-items: center;
+  padding: 10px;
+}
+
+.wishlistItem_image {
+  max-width: 80px;
+  max-height: 80px;
+}
+.wishlistItem_title {
+  font-size: 13px;
+  color: #121317;
+  margin: 0;
+  font-weight: bold;
+}
+.wishlistItem_priceInfo {
+  font-size: 13px;
+  margin: 0;
+}
+
+.wishlist_delete_icon {
+  float: right;
+}
+
+.wishlist_add_to_cart {
+  background: none !important;
+  padding: 0px !important;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.product_in_cart_desc {
+  font-size: 12px;
+  color: grey;
+}

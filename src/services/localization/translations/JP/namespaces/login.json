@@ -1,0 +1,16 @@
+{
+  "loginMenuTitle": "ログイン / 登録",
+  "loginMenuEntry": "ログイン",
+  "registrationMenuEntry": "登録",
+  "loginModalTitle": "ログイン",
+  "usernameFormTitle": "ユーザー名",
+  "passwordFormTitle": "パスワード",
+  "rememberMeCheckTitle": "私を覚えてますか",
+  "submitButton": "送信",
+  "accountMenuTitle": "ユーザーメニュー",
+  "accountMenuEntry": "アカウント",
+  "logOutMenuEntry": "ログアウト",
+  "logOutModalQuestion": "ログアウトしてもよろしいですか？",
+  "logOutModalYesButton": "はい",
+  "logOutModalNoButton": "いいえ"
+}

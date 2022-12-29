@@ -1,0 +1,9 @@
+.arrangeHorizontally {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.productAddToCartButton {
+  font-size: 12px;
+}

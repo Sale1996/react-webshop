@@ -1,0 +1,19 @@
+{
+  "formFirstName": "Ime",
+  "formLastName": "Prezime",
+  "formEmail": "Email",
+  "formPhone": "Telefon",
+  "formCity": "Grad",
+  "formStreet": "Ulica",
+  "formStreetNumber": "Broj kuce",
+  "formZipCode": "Zip kod",
+  "formPassword": "Lozinka",
+  "formConfirmPassword": "Potvrdi lozinku",
+  "firstNameValidation": "Ime mora biti tekst duzine izmedju 3 i 20 karaktera.",
+  "lastNameValidation": "Prezime mora biti tekst duzine izmedju 3 i 20 karaktera.",
+  "streetAddressValidaiton": "Adresa mora biti tekst duzine zimedju 3 i 30 karaktera.",
+  "cityValidation": "Ime grada mora biti tekst duzine izmedju 3 i 20 karaktera.",
+  "zipCodeValidation": "Zip Code mora biti 5 cifreni broj.",
+  "phoneNumberValidation": "Broj telefona mora biti broj koji se sastoji izmedju 5 i 30 cifara.",
+  "emailValidation": "Pogresan format e-poste, e-posta mora imati najmanje 5 karaktera."
+}

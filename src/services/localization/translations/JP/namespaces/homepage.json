@@ -1,0 +1,14 @@
+{
+  "title": "店",
+  "price-range-filter-title": "価格で絞り込む",
+  "categories-title": "商品カテゴリ",
+  "sort-by-button": "並べ替え...",
+  "sort-by-latest": "最新順で並べ替え",
+  "sort-by-average-rating": "平均評価で並べ替え",
+  "sort-by-price-l-to-h": "価格順: 安い順",
+  "sort-by-price-h-to-l": "価格順: 高い順",
+  "search-input-text": "検索...",
+  "clear-filters": "すべてクリア",
+  "min-price-filter": "分: ",
+  "max-price-filter": "マックス: "
+}

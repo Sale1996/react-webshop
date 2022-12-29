@@ -1,0 +1,33 @@
+.quantity {
+  max-height: 25px;
+  height: 38px;
+  max-width: 100px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.quantity_button {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #252525; /* var(--styler-black); */
+  z-index: 1;
+  cursor: pointer;
+  padding-bottom: 30px;
+}
+
+.quantity_input {
+  border: 0;
+  font-size: 20 px;
+  padding: 0;
+  text-align: center;
+  height: 100%;
+}
+
+.quantity_button_minus {
+  width: auto;
+}

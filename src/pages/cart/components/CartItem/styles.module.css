@@ -1,0 +1,30 @@
+.cartItem {
+  display: grid;
+  grid-template-columns: 70px auto 100px 95px 60px;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.cartItem:last-child {
+  border-bottom: 1px solid #ccc;
+}
+.cartItem_image {
+  max-width: 50px;
+  max-height: 50px;
+}
+.cartItem_title {
+  font-size: 13px;
+  color: green;
+  margin: 0;
+}
+.cartItem_priceInfo {
+  font-size: 13px;
+  margin: 0;
+}
+
+.cartTotal {
+  margin-top: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}

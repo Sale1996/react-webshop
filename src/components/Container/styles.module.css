@@ -1,0 +1,17 @@
+
+.container {
+    margin: auto;
+}
+.full {
+    width: 100%;
+}
+.xl {
+    max-width: 1200px;
+}
+
+.sm {
+    max-width: 900px;
+}
+.xs {
+    max-width: 600px;
+}

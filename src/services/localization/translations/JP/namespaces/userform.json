@@ -1,0 +1,19 @@
+{
+  "formFirstName": "ファーストネーム",
+  "formLastName": "苗字",
+  "formEmail": "Eメール",
+  "formPhone": "電話",
+  "formCity": "街",
+  "formStreet": "街",
+  "formStreetNumber": "街路番号",
+  "formZipCode": "郵便番号",
+  "formPassword": "パスワード",
+  "formConfirmPassword": "パスワードを認証する",
+  "firstNameValidation": "名は 3 ～ 20 文字である必要があります。",
+  "lastNameValidation": "姓は 3 ～ 20 文字である必要があります。",
+  "streetAddressValidaiton": "住所は 3 ～ 30 文字である必要があります。",
+  "cityValidation": "町 / 都市は 3 ～ 20 文字である必要があります。",
+  "zipCodeValidation": "郵便番号は 5 桁の数字でなければなりません。",
+  "phoneNumberValidation": "電話番号は 5 ～ 30 桁の数字でなければなりません。",
+  "emailValidation": "メール形式が正しくありません。メールは 5 文字以上である必要があります。"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Shop",
+  "price-range-filter-title": "Filter By Price",
+  "categories-title": "Product Categories",
+  "sort-by-button": "Sort by...",
+  "sort-by-latest": "Sort by latest",
+  "sort-by-average-rating": "Sort by average rating",
+  "sort-by-price-l-to-h": "Sort by price: low to high",
+  "sort-by-price-h-to-l": "Sort by price: high to low",
+  "search-input-text": "Search...",
+  "clear-filters": "Clear All",
+  "min-price-filter": "Min: ",
+  "max-price-filter": "Max: "
+}

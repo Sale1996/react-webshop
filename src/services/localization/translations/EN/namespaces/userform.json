@@ -1,0 +1,19 @@
+{
+  "formFirstName": "First Name",
+  "formLastName": "Last Name",
+  "formEmail": "Email",
+  "formPhone": "Phone",
+  "formCity": "City",
+  "formStreet": "Street",
+  "formStreetNumber": "Street Number",
+  "formZipCode": "Zip Code",
+  "formPassword": "Password",
+  "formConfirmPassword": "Confirm Password",
+  "firstNameValidation": "First Name should be between 3 and 20 characters.",
+  "lastNameValidation": "Last Name should be between 3 and 20 characters.",
+  "streetAddressValidaiton": "Street Address should be between 3 and 30 characters.",
+  "cityValidation": "Town / City should be between 3 and 20 characters.",
+  "zipCodeValidation": "Zip Code should be 5 digit number.",
+  "phoneNumberValidation": "Phone Number should be between 5 and 30 digit number.",
+  "emailValidation": "Wrong email format, email should be at least 5 characters long."
+}

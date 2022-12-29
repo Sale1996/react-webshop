@@ -1,0 +1,18 @@
+.wishlist_badge {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  height: fit-content;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.wishlist_badge_active {
+  color: orange;
+}
+
+.wishlist_icon {
+  height: 25px;
+  width: 25px;
+  color: #000;
+}

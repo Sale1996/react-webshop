@@ -1,0 +1,14 @@
+{
+  "title": "Prodavnica",
+  "price-range-filter-title": "Filtriraj Po Ceni",
+  "categories-title": "Kategorije proizvoda",
+  "sort-by-button": "Sortiraj po...",
+  "sort-by-latest": "Sortiraj po datumu dopreme",
+  "sort-by-average-rating": "Sortiraj po prosecnom rejtingu",
+  "sort-by-price-l-to-h": "Sortiraj po ceni: niza ka vecoj",
+  "sort-by-price-h-to-l": "Sortiraj po ceni: veca ka nizoj",
+  "search-input-text": "Pretrazi...",
+  "clear-filters": "Obrisi sve",
+  "min-price-filter": "Min: ",
+  "max-price-filter": "Max: "
+}

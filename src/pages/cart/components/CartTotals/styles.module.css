@@ -1,0 +1,27 @@
+.cartTotal {
+    margin-top: 30px;
+    padding:10px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.cart_content {
+    width: 100%;
+}
+.subtotal_title {
+    text-align: left;
+}
+.table_body {
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+.title_head {
+    border: none;  
+   border-color:#ccc;
+   width: 100%;
+   padding: 10px;
+   text-align: left;
+}

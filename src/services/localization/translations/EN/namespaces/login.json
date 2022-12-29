@@ -1,0 +1,16 @@
+{
+  "loginMenuTitle": "LOG IN / REGISTER",
+  "loginMenuEntry": "Log in",
+  "registrationMenuEntry": "Register",
+  "loginModalTitle": "Login",
+  "usernameFormTitle": "Username",
+  "passwordFormTitle": "Password",
+  "rememberMeCheckTitle": "Remember me",
+  "submitButton": "Submit",
+  "accountMenuTitle": "USER MENU",
+  "accountMenuEntry": "Account",
+  "logOutMenuEntry": "Log out",
+  "logOutModalQuestion": "Are you sure you want to log out?",
+  "logOutModalYesButton": "Yes",
+  "logOutModalNoButton": "No"
+}

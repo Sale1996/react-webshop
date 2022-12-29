@@ -1,0 +1,11 @@
+{
+  "title": "Cart",
+  "carttotals": "Cart totals",
+  "subttotals": "SUBTOTAL",
+  "shipping": "Shipping",
+  "flat-rate": "Flat rate:",
+  "total-price": "TOTAL",
+  "proceed-to-checkout-button": "Proceed to Checkout",
+  "product-added-notification": "Product added to cart",
+  "product-removed-notification": "Product removed from cart"
+}

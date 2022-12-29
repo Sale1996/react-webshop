@@ -1,0 +1,16 @@
+{
+  "loginMenuTitle": "ULOGUJ SE / REGISTRACIJA",
+  "loginMenuEntry": "Uloguj se",
+  "registrationMenuEntry": "Registracija",
+  "loginModalTitle": "Uloguj se",
+  "usernameFormTitle": "Korisnicko ime",
+  "passwordFormTitle": "Lozinka",
+  "rememberMeCheckTitle": "Zapamti me",
+  "submitButton": "Prihvati",
+  "accountMenuTitle": "KORISNICKI MENI",
+  "accountMenuEntry": "Nalog",
+  "logOutMenuEntry": "Izloguj se",
+  "logOutModalQuestion": "Da li ste sigurni da zelite da izadjete?",
+  "logOutModalYesButton": "Da",
+  "logOutModalNoButton": "Ne"
+}

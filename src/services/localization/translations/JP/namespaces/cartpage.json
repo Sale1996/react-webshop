@@ -1,0 +1,11 @@
+{
+  "title": "カート",
+  "carttotals": "カートの合計",
+  "subttotals": "配送",
+  "shipping": "配送",
+  "flat-rate": "均一料金:",
+  "total-price": "合計",
+  "proceed-to-checkout-button": "チェックアウトに進む",
+  "product-added-notification": "カートに商品が追加されました",
+  "product-removed-notification": "商品がカートから削除されました"
+}

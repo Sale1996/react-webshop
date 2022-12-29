@@ -1,0 +1,17 @@
+.productImageContainer {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+  height: 700px;
+  margin: 3px;
+  padding: 0px;
+  float: right;
+}
+
+.productImage {
+  max-width: 600px;
+  max-height: inherit;
+  height: inherit;
+  width: inherit;
+  object-fit: scale-down;
+}
