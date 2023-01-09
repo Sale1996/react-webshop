@@ -21,17 +21,19 @@ const CheckoutForm = () => {
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const form: HTMLFormElement = event.currentTarget;
+    
+    setValidated(true);
+
     if (form.checkValidity() === false) {
       event.stopPropagation();
-    }
-
-    setValidated(true);
-    removeAll();
-    toast.success(t("checkoutSuccess", { ns: "checkout" }), {
-      autoClose: 10000,
-    });
-
-    navigate("/");
+    } else {      
+      removeAll();
+      toast.success(t("checkoutSuccess", { ns: "checkout" }), {
+         autoClose: 10000,
+      });
+  
+      navigate("/");
+    }    
   };
 
   return (
@@ -52,7 +54,9 @@ const CheckoutForm = () => {
               style={{ width: "15rem" }}
               defaultValue={accountState.currentUser?.name.firstname}
             />
-            <ValidationFeedback>aaa</ValidationFeedback>
+            <ValidationFeedback>
+              {t("firstNameValidation", { ns: "userform" })}
+            </ValidationFeedback>
           </Col>
         </Form.Group>
 

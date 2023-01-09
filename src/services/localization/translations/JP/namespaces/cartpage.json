@@ -7,5 +7,6 @@
   "total-price": "合計",
   "proceed-to-checkout-button": "チェックアウトに進む",
   "product-added-notification": "カートに商品が追加されました",
-  "product-removed-notification": "商品がカートから削除されました"
+  "product-removed-notification": "商品がカートから削除されました",
+  "cart-is-empty": "カートは空です"
 }

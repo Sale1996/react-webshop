@@ -51,14 +51,6 @@ const Account = () => {
             </tr>
           </tbody>
         </table>
-        <div className="mb-2">
-          <button className="btn btn-primary">
-            {t("changeUserInfoBtn", { ns: "account" })}
-          </button>
-          <button className="btn btn-primary ms-3">
-            {t("changePassBtn", { ns: "account" })}
-          </button>
-        </div>
       </div>
     </AppLayout>
   );

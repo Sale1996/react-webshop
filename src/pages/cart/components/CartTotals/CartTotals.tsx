@@ -8,6 +8,8 @@ const CartTotals = () => {
   const { tax, amount } = cartState;
   const { t } = useTranslation();
 
+  const totalPrice = (amount + (amount === 0 ? 0 : tax)).toFixed(2);
+
   return (
     <div className={styles.cartTotal}>
       <div className={styles.cart_content}>
@@ -43,7 +45,7 @@ const CartTotals = () => {
             <th className={styles.title_head}>
               {t("total-price", { ns: "cartPage" })}
             </th>
-            <th>${amount + (amount === 0 ? 0 : tax)}</th>
+            <th>${totalPrice}</th>
           </tr>
         </tfoot>
       </table>

@@ -13,10 +13,14 @@ const CartView = () => {
   const { cartState, removeCartItem, updateQuantity } = useContext(CartContext);
   const { items } = cartState;
   const { t } = useTranslation();
-
+  const isEmpty = items.length === 0;
   return (
     <AppLayout>
       <Headline title={t("title", { ns: "cartPage" })} />
+      {isEmpty ? 
+        <p className={styles.cardEmptyText}>
+          {t("cart-is-empty", { ns: "cartPage" })}
+        </p>: ""}
       <div className={styles.cartPage}>
         <div className={styles.cartItems}>
           {items
@@ -35,7 +39,7 @@ const CartView = () => {
         <div className={styles.cartTotalWrapp}>
           <CartTotals />
           <Link to={"/checkout"}>
-            <Button className={styles.proceedBtn}>
+            <Button className={isEmpty ? styles.disabledBtn: styles.proceedBtn} disabled={isEmpty}>
               {t("proceed-to-checkout-button", { ns: "cartPage" })}
             </Button>
           </Link>

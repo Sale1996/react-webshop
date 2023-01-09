@@ -7,5 +7,6 @@
   "total-price": "TOTAL",
   "proceed-to-checkout-button": "Proceed to Checkout",
   "product-added-notification": "Product added to cart",
-  "product-removed-notification": "Product removed from cart"
+  "product-removed-notification": "Product removed from cart",
+  "cart-is-empty": "Cart is empty"
 }

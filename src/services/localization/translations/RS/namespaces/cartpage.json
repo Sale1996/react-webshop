@@ -7,5 +7,6 @@
   "total-price": "UKUPNO",
   "proceed-to-checkout-button": "Nastavite na kasu",
   "product-added-notification": "Proizvod dodat u korpu",
-  "product-removed-notification": "Proizvod izbacen iz korpe"
+  "product-removed-notification": "Proizvod izbacen iz korpe",
+  "cart-is-empty": "Korpa je prazna"
 }

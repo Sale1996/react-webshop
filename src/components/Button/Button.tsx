@@ -4,12 +4,13 @@ import { classNames } from '../../utils'
 
 interface IProps extends HTMLAttributes<HTMLButtonElement>{
   children: ReactNode,
+  disabled?: boolean
 }
 
-const Button:React.FC<IProps> = ({ children, className='', ...props}) => {
+const Button:React.FC<IProps> = ({ children, className='', disabled, ...props}: IProps) => {
   const classes = classNames(styles.btn, className)
   return (
-    <button className={classes} {...props}>
+    <button className={classes} disabled={disabled} {...props}>
        { children }
     </button>
   )
